@@ -1,0 +1,25 @@
+
+:root {  
+  --md-footer-bg-color:  rgb(83,104,114); 
+  --md-footer-fg-color: white;
+
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: #FF5733
+}
+
+
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 14px; /* Adjust this value to your desired size (e.g., 16px, 1.1rem) */
+}
+
+.grid.cards > :is(ul, ol) > li {
+  background-color: blue; /* Use a built-in color variable or a specific hex code */
+}
+

@@ -1,0 +1,77 @@
+site_name: Ayan Guha
+site_description: Personal profile – data, AI, and engineering leadership
+site_url: https://your-domain.com
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: grey
+    accent: blue
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - content.fade
+
+nav:
+  - Home: index.md
+  - experience.md
+
+plugins:
+  - search:
+      enabled: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+theme:
+  name: material
+  font:
+    text: Google Sans
+  palette:
+    scheme: light
+    primary: teal
+    accent: indigo
+  features:
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+  icon:
+    logo: simple/ticktick
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ayan-g-660b858/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ayanguha 
+    - icon: simple/medium
+      link: https://medium.com/@guha-ayan
